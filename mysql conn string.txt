@@ -1,0 +1,42 @@
+server=35.193.83.44;port=3306;database=inkapharmacy;user=jtest;pwd=sistemas
+mysql 5.6
+
+server=localhost;port=3306;database=inkapharmacy;user=root;pwd=sistemas;SslMode=none
+
+
+Endpoint: inkafarmaweb.crb3adbswq0j.us-east-2.rds.amazonaws.com
+Instance identifier: inkafarmaweb
+Master username: inkafarma
+Master password: inkafarma.123
+Database name: bdinkafarma
+version: mysql-5.7.24
+
+3.13.169.71
+
+
+server=inkapharmacy.cfcg2xcbykau.us-east-2.rds.amazonaws.com;port=3306;database=inkapharmacy;user=administrador;pwd=Welcome25!
+
+
+gcloud sql connect [INSTANCE_ID] --user=root
+
+gcloud sql connect inkapharmacyaws2-cloudsql --user=jtest --quiet
+
+use inkapharmacy
+
+select * from customer where document_number is null limit 5;
+
+gcloud sql connect inkapharmacy3-cloudsql --user=jtest --quiet
+
+
+Endpoint
+inkafarma.crb3adbswq0j.us-east-2.rds.amazonaws.com
+
+DB instance identifier: inkafarma
+Master username: inkafarma
+Master password: inkafarma.123
+
+Database name: bdinkafarma
+port: 3306
+version: mysql-5.6
+
+3.130.29.83

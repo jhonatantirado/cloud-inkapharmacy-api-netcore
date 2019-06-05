@@ -1,0 +1,6 @@
+---
+applications:
+- name: cloud-inkapharmacy-netcore-api
+  memory: 256M
+  instances: 1
+  random-route: true
